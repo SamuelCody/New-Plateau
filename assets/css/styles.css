@@ -98,20 +98,20 @@
 
 @media (min-width: 721px) and (max-width: 799px) {
   .hero-title {
-    font-size: 1.6rem !important;
+    font-size: 1.7rem !important;
     line-height: 2.2rem !important;
   }
 }
 
-@media (min-width: 721px) and (max-width: 999px) {
+@media (min-width: 721px) and (max-width: 799px) {
   .subscribe-form {
-    width: 17rem !important;
+    width: 13rem !important;
   }
 }
 
 @media (min-width: 721px) and (max-width: 799px) {
   .subscribe-button {
-    left: 23rem !important;
+    left: 12rem !important;
   }
 }
 
@@ -348,7 +348,7 @@
 
 @media (max-width: 720px) {
   .subscribe-button {
-    left: 30rem !important;
+    left: 25rem !important;
   }
 }
 
@@ -366,7 +366,7 @@
 
 @media (max-width: 565px) {
   .subscribe-button {
-    left: 13rem !important;
+    left: 15rem !important;
   }
 }
 
@@ -389,9 +389,45 @@
   }
 }
 
-@media (min-width: 360px) {
+@media (max-width: 360px) {
   .subscribe-form {
-    width: 57vw !important;
+    width: 62vw !important;
+  }
+}
+
+@media (max-width: 629px) {
+  .hero-image {
+    top: 20rem !important;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 999px) {
+  .subscribe-form {
+    width: 17rem !important;
+  }
+}
+
+@media (min-width: 1000px) {
+  .subscribe-form {
+    width: 24rem !important;
+  }
+}
+
+@media (min-width: 1000px) {
+  .subscribe-button {
+    left: 23rem !important;
+  }
+}
+
+@media (min-width: 721px) and (max-width: 768px) {
+  .navbar {
+    padding-left: 2rem !important;
+  }
+}
+
+@media (min-width: 721px) and (max-width: 768px) {
+  .hero-container {
+    padding-left: 2rem !important;
   }
 }
 
