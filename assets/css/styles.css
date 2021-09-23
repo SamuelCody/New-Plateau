@@ -124,7 +124,7 @@
 @media (max-width: 720px) {
   .navbar {
     padding-left: 1rem !important;
-    padding-top: 4rem !important;
+    padding-top: 2rem !important;
   }
 }
 
@@ -150,7 +150,7 @@
   .hero-image {
     position: absolute !important;
     display: block;
-    top: 20rem !important;
+    top: 16rem !important;
     width: 26% !important;
     left: 12rem !important;
   }
@@ -354,7 +354,7 @@
 
 @media (max-width: 700px) {
   .subscribe-button {
-    left: 24rem !important;
+    left: 22rem !important;
   }
 }
 
@@ -372,13 +372,13 @@
 
 @media (max-width: 400px) {
   .subscribe-button {
-    left: 13.7rem !important;
+    left: 12.7rem !important;
   }
 }
 
 @media (max-width: 375px) {
   .subscribe-button {
-    left: 11rem !important;
+    left: 12rem !important;
     /*display: none;*/
   }
 }
@@ -391,7 +391,7 @@
 
 @media (min-width: 360px) {
   .subscribe-form {
-    width: 52vw !important;
+    width: 57vw !important;
   }
 }
 
