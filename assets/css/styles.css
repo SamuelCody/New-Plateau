@@ -358,13 +358,13 @@
 
 @media (max-width: 720px) {
   .subscribe-form {
-    width: 72vw !important;
+    width: 69vw !important;
   }
 }
 
 @media (max-width: 565px) {
   .subscribe-button {
-    left: 18rem !important;
+    left: 17rem !important;
   }
 }
 
