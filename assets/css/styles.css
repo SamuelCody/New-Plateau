@@ -379,7 +379,7 @@
 @media (max-width: 375px) {
   .subscribe-button {
     left: 11rem !important;
-    display: none;
+    /*display: none;*/
   }
 }
 
