@@ -111,7 +111,7 @@
 
 @media (min-width: 721px) and (max-width: 799px) {
   .subscribe-button {
-    left: 15rem !important;
+    left: 23rem !important;
   }
 }
 
@@ -322,7 +322,7 @@
 @media (max-width: 450px) {
   .hero-image {
     width: 50% !important;
-    top: 22rem!important;
+    top: 18rem!important;
     left: 4rem !important;
   }
 }
@@ -360,31 +360,37 @@
 
 @media (max-width: 720px) {
   .subscribe-form {
-    width: 69vw !important;
+    width: 65vw !important;
   }
 }
 
 @media (max-width: 565px) {
   .subscribe-button {
-    left: 15rem !important;
+    left: 13rem !important;
   }
 }
 
 @media (max-width: 400px) {
   .subscribe-button {
-    left: 14.7rem !important;
+    left: 13.7rem !important;
   }
 }
 
 @media (max-width: 375px) {
   .subscribe-button {
-    left: 15rem !important;
+    left: 13rem !important;
   }
 }
 
 @media (max-width: 350px) {
   .subscribe-button {
     left: 12rem !important;
+  }
+}
+
+@media (min-width: 360px) {
+  .subscribe-form {
+    width: 62vw !important;
   }
 }
 
