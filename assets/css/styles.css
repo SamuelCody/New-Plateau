@@ -348,7 +348,7 @@
 
 @media (max-width: 720px) {
   .subscribe-button {
-    left: 31rem !important;
+    left: 30rem !important;
   }
 }
 
@@ -366,25 +366,25 @@
 
 @media (max-width: 565px) {
   .subscribe-button {
-    left: 17rem !important;
+    left: 15rem !important;
   }
 }
 
 @media (max-width: 400px) {
   .subscribe-button {
-    left: 16.7rem !important;
+    left: 14.7rem !important;
   }
 }
 
 @media (max-width: 375px) {
   .subscribe-button {
-    left: 16rem !important;
+    left: 15rem !important;
   }
 }
 
 @media (max-width: 350px) {
   .subscribe-button {
-    left: 14rem !important;
+    left: 12rem !important;
   }
 }
 
