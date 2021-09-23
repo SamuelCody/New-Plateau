@@ -431,3 +431,9 @@
   }
 }
 
+@media (min-width: 401px) and (max-width: 450px) {
+  .hero-image {
+    top: 18rem !important;
+  }
+}
+
