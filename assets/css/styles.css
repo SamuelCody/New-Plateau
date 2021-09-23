@@ -335,7 +335,7 @@
 
 @media (max-width: 375px) {
   .hero-image {
-    width: 81% !important;
+    width: 79% !important;
   }
 }
 
@@ -378,7 +378,7 @@
 
 @media (max-width: 375px) {
   .subscribe-button {
-    left: 13rem !important;
+    left: 11rem !important;
   }
 }
 
@@ -390,7 +390,7 @@
 
 @media (min-width: 360px) {
   .subscribe-form {
-    width: 62vw !important;
+    width: 52vw !important;
   }
 }
 
