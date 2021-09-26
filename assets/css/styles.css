@@ -548,14 +548,14 @@
 
 @media (max-width: 768px) {
   .feature-small-text {
-    font-size: 1.1rem !important;
+    font-size: 0.8rem !important;
     /*flex-basis: unset !important;*/
   }
 }
 
 @media (max-width: 375px) {
   .feature-small-text {
-    font-size: 1.2rem !important;
+    font-size: 0.7rem !important;
     /*flex-basis: unset !important;*/
   }
 }
