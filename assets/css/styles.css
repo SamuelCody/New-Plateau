@@ -760,9 +760,9 @@
   border-bottom-left-radius: 1.3rem;
 }
 
-#send-mail:focus {
+#send-mail:active {
   box-shadow: none !important;
-  border-color: transparent !important;
-  color: #fff !important;
+  /*border-color: transparent !important;*/
+  /*color: #fff !important;*/
 }
 
