@@ -749,3 +749,20 @@
   padding-right: 10.8rem;
 }
 
+#send-mail {
+  position: absolute;
+  left: 27rem;
+  background-color: #191bb4;
+  border-style: none;
+  padding: 1rem 2.4rem;
+  border-top-right-radius: 1.3rem;
+  border-bottom-right-radius: 1.3rem;
+  border-bottom-left-radius: 1.3rem;
+}
+
+#send-mail:focus {
+  box-shadow: none !important;
+  border-color: transparent !important;
+  color: #fff !important;
+}
+
