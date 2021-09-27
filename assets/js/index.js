@@ -1,15 +1,17 @@
 let navv = document.getElementById("navbar-id");
 let scrollBtn = document.getElementById("scroll-btn");
 let coreFeatures = document.getElementById("core-features");
+let sendBtn = document.getElementById("send-mail");
+let notifyText = document.getElementById("plateaumed-notify");
+let emailInput = document.getElementById("email");
+let url = "https://dev.plateaumed.com/send-email/";
 
 document.addEventListener("scroll", () => {
   if (window.scrollY > 150) {
     navv.style.boxShadow = ".1rem .2rem .3rem rgba(0, 0, 0, .08)";
-      navv.classList.add('fixed-top');
   } else {
     navv.style.background = "#FFF";
     navv.style.boxShadow = "none";
-      navv.classList.add('fixed-top');
   }
 });
 
@@ -22,4 +24,33 @@ scrollBtn.addEventListener("click", () => {
     top: offsetPosition,
     behavior: "smooth",
   });
+});
+
+sendBtn.addEventListener("click", async () => {
+  let email = emailInput.value.trim();
+  const mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  if (email === "") {
+    notifyText.style.color = "red";
+    notifyText.innerHTML = "please input an email address";
+    notifyText.style.color = "red";
+  } else if (!email.match(mailformat)) {
+    notifyText.innerHTML = "please input a valid email address";
+    notifyText.style.color = "red";
+  } else {
+    const response = await fetch(`${url}${email}`);
+
+    const result = await response.json();
+    if (!response.ok) {
+      notifyText.innerHTML = "An error occured, please try again";
+      notifyText.style.color = "red";
+    } else {
+      notifyText.innerHTML = result.message;
+      notifyText.style.color = "#02c22c";
+      emailInput.value = "";
+    }
+  }
+  notifyText.style.display = "block";
+  setTimeout(() => {
+    notifyText.style.display = "none";
+  }, 3000);
 });
