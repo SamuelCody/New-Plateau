@@ -156,7 +156,7 @@
   .hero-image {
     position: absolute !important;
     display: block;
-    top: 16rem !important;
+    top: 22rem !important;
     width: 26% !important;
     left: 12rem !important;
   }
@@ -314,7 +314,7 @@
 
 @media (max-width: 500px) {
   .hero-image {
-    width: 85% !important;
+    width: 80% !important;
     left: 3rem !important;
   }
 }
@@ -403,7 +403,13 @@
 
 @media (max-width: 629px) {
   .hero-image {
-    top: 20rem !important;
+    top: 23rem !important;
+  }
+}
+
+@media (min-width: 558px) and (max-width: 629px) {
+  .hero-image {
+    top: 26rem !important;
   }
 }
 
@@ -439,7 +445,7 @@
 
 @media (min-width: 401px) and (max-width: 450px) {
   .hero-image {
-    top: 18rem !important;
+    top: 23rem !important;
   }
 }
 

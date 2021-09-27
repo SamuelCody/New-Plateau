@@ -1,4 +1,4 @@
-let navv = document.getElementById("navvbar-id");
+let navv = document.getElementById("navbar-id");
 let scrollBtn = document.getElementById("scroll-btn");
 let coreFeatures = document.getElementById("core-features");
 
@@ -9,7 +9,7 @@ document.addEventListener("scroll", () => {
   } else {
     navv.style.background = "#FFF";
     navv.style.boxShadow = "none";
-      navv.classList.remove('fixed-top');
+      navv.classList.add('fixed-top');
   }
 });
 
