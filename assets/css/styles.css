@@ -593,3 +593,21 @@
   }
 }
 
+@media (min-width: 1024px) {
+  .padding-space {
+    /*padding-bottom: 0.4rem !important;*/
+  }
+}
+
+.rectangle-six {
+  position: absolute;
+  right: 40rem;
+  top: 0rem;
+  width: 3%;
+}
+
+.rectangle-seven {
+  position: absolute;
+  right: 0;
+}
+
